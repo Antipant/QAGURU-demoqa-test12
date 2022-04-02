@@ -1,10 +1,8 @@
 package ru.antipant;
 
-import com.codeborne.selenide.Selenide;
-import com.codeborne.selenide.WebDriverRunner;
 import org.junit.jupiter.api.*;
 
-public class SimpleTest {
+public class Junit5Tests {
     @BeforeAll
     static void initDB() {
         System.out.println("### @BeforeAll");
